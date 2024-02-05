@@ -1,5 +1,7 @@
 import numpy as np
 
+print('loaded module')
+
 def query(name, version, lb, ub):
     print('foo')
     return(np.ones((2,2)))
